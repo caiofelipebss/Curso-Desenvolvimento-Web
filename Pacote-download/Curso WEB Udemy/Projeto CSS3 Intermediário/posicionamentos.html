@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<title>Posicionamentos (static, relative, absolute e fixed)</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+			
+			body {
+				background: #007fc7;
+			}
+
+			#container {
+				background: #FFF;
+				width: 800px;
+				margin: 10px auto;
+				padding: 10px;
+				position: relative;
+			}
+
+
+
+			p {
+				width: 300px;
+			}
+
+			.fixed {
+				border: 1px solid red;
+				background: #f2f2f2;
+				margin: #0px;
+				position: fixed;
+				bottom: 0px;
+				right: 0px;
+			}
+
+			.absolute {
+				border: 1px solid red;
+				background: #f2f2f2;
+				position: absolute;
+				top: 80px;
+				right: 80px;
+
+			}
+
+			.relative {
+				border: 1px solid red;
+				position: relative;
+				/*Propriedades de deslocamento: top (topo), right (direita), bottom (inferior) e left (esquerda);*/
+				top: 20px;
+				left: 80px;
+			}
+
+
+		</style>
+	
+
+
+	</head>
+	<body>
+
+		<div id="container">
+		
+			<h1>Posicionamentos</h1>
+
+			<p>
+				é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.
+
+			</p>
+
+			<p class="absolute">
+				P2 é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.
+
+			</p>
+
+			<p>
+				P3 é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.
+
+			</p>
+
+		</div>
+
+	</body>
+</html>

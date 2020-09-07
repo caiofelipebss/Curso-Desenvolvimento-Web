@@ -1,0 +1,48 @@
+/*
+Modelo de caixa
+
+.conteudo {
+	border: red solid 1px; 
+	padding-top: 20px;
+	espaçamento superior
+
+	padding-right: 15px;
+	espaçamento a direita
+	
+	padding-bottom: 10px;
+	espaçamento inferior
+	
+	padding-left: 5px;
+	espaçamento na esquerda
+
+	padding: 20px 15px 10px 5px;
+
+	padding: 20px 10px; 
+	20px superior e inferior/ 10px esquerda e direita
+
+	width: 150px;
+
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+
+	mesma regra de padding
+
+	margin: 10px;
+}
+*/
+
+/*
+Noticia
+*/
+
+#noticia {
+	background: violet;
+	padding: 10px;
+	border: 1px solid gray;
+}
+
+h2 { /* O h2 já tem uma margem definida, por isso que foi zerado */
+		margin: 0px;
+}
